@@ -1,4 +1,4 @@
-# Autheticacion Angular 
+# Authentication Angular 
 
 - Express Server
 - MongoDB
