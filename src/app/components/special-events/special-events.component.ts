@@ -8,7 +8,7 @@ import { EventService } from 'src/app/services/event.service';
 })
 export class SpecialEventsComponent implements OnInit {
 
-  specialEventList = [];
+  specialEventList: any[] = [];
 
   constructor(private eventSvc: EventService) { }
 

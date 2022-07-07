@@ -55,49 +55,49 @@ router.get('/events', (req, res) => {
             "_id": "1",
             "name": "Auto Expo",
             "description": "lorem ipsum",
-            "date": "2022-07-12T18:25:432511Z"
+            "date": "Thu Jul 23 2022 18:02:54 GMT-0500"
         },
         {
             "_id": "2",
             "name": "Auto Expo",
             "description": "lorem ipsum",
-            "date": "2022-07-12T18:25:432511Z"
+            "date": "Thu Jul 23 2022 18:02:54 GMT-0500"
         },
         {
             "_id": "3",
             "name": "Auto Expo",
             "description": "lorem ipsum",
-            "date": "2022-07-12T18:25:432511Z"
+            "date": "Thu Jul 23 2022 18:02:54 GMT-0500"
         },
         {
             "_id": "4",
             "name": "Auto Expo",
             "description": "lorem ipsum",
-            "date": "2022-07-12T18:25:432511Z"
+            "date": "Thu Jul 23 2022 18:02:54 GMT-0500"
         },
         {
             "_id": "5",
             "name": "Auto Expo",
             "description": "lorem ipsum",
-            "date": "2022-07-12T18:25:432511Z"
+            "date": "Thu Jul 23 2022 18:02:54 GMT-0500"
         },
         {
             "_id": "6",
             "name": "Auto Expo",
             "description": "lorem ipsum",
-            "date": "2022-07-12T18:25:432511Z"
+            "date": "Thu Jul 23 2022 18:02:54 GMT-0500"
         },
         {
             "_id": "7",
             "name": "Auto Expo",
             "description": "lorem ipsum",
-            "date": "2022-07-12T18:25:432511Z"
+            "date": "Thu Jul 23 2022 18:02:54 GMT-0500"
         },
         {
             "_id": "8",
             "name": "Auto Expo",
             "description": "lorem ipsum",
-            "date": "2022-07-12T18:25:432511Z"
+            "date": "Thu Jul 23 2022 18:02:54 GMT-0500"
         },
     ];
     res.json(events);
@@ -109,49 +109,49 @@ router.get('/special', (req, res) => {
             "_id": "1",
             "name": "Auto Expo :: Special",
             "description": "lorem ipsum",
-            "date": "2022-07-12T18:25:432511Z"
+            "date": "Thu Jul 23 2022 18:02:54 GMT-0500"
         },
         {
             "_id": "2",
             "name": "Auto Expo :: Special",
             "description": "lorem ipsum",
-            "date": "2022-07-12T18:25:432511Z"
+            "date": "Thu Jul 23 2022 18:02:54 GMT-0500"
         },
         {
             "_id": "3",
             "name": "Auto Expo :: Special",
             "description": "lorem ipsum",
-            "date": "2022-07-12T18:25:432511Z"
+            "date": "Thu Jul 23 2022 18:02:54 GMT-0500"
         },
         {
             "_id": "4",
             "name": "Auto Expo :: Special",
             "description": "lorem ipsum",
-            "date": "2022-07-12T18:25:432511Z"
+            "date": "Thu Jul 23 2022 18:02:54 GMT-0500"
         },
         {
             "_id": "5",
             "name": "Auto Expo :: Special",
             "description": "lorem ipsum",
-            "date": "2022-07-12T18:25:432511Z"
+            "date": "Thu Jul 23 2022 18:02:54 GMT-0500"
         },
         {
             "_id": "6",
             "name": "Auto Expo :: Special",
             "description": "lorem ipsum",
-            "date": "2022-07-12T18:25:432511Z"
+            "date": "Thu Jul 23 2022 18:02:54 GMT-0500"
         },
         {
             "_id": "7",
             "name": "Auto Expo :: Special",
             "description": "lorem ipsum",
-            "date": "2022-07-12T18:25:432511Z"
+            "date": "Thu Jul 23 2022 18:02:54 GMT-0500"
         },
         {
             "_id": "8",
             "name": "Auto Expo :: Special",
             "description": "lorem ipsum",
-            "date": "2022-07-12T18:25:432511Z"
+            "date": "Thu Jul 23 2022 18:02:54 GMT-0500"
         },
     ];
     res.json(events);
