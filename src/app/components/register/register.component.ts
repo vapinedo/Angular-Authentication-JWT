@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
   selector: 'app-register',
@@ -12,13 +13,18 @@ export class RegisterComponent implements OnInit {
     password: ""
   };
 
-  constructor() { }
+  constructor(private authSvc: AuthService) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {  
   }
 
   onRegister() {
-    console.log(this.formData);
+    this.authSvc.register(this.formData)
+      .subscribe({
+        next: data => console.log(data),
+        error: err => console.log(err),
+        complete: () => console.log('Complete register request')
+      })
   }
 
 }
