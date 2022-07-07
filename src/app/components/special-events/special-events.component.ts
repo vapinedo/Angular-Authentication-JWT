@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { EventService } from 'src/app/services/event.service';
 
 @Component({
   selector: 'app-special-events',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SpecialEventsComponent implements OnInit {
 
-  constructor() { }
+  specialEventList = [];
+
+  constructor(private eventSvc: EventService) { }
 
   ngOnInit(): void {
+    this.eventSvc.getEvents()
+    .subscribe({
+      next: data => this.specialEventList = data,
+      error: err => console.log(err),
+      complete: () => console.log('Completed especial events request')
+    })
   }
 
 }
